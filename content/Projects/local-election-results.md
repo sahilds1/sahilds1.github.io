@@ -1,5 +1,5 @@
 Title: Local Election Results
-Date: 2013-11-06
+Date: 2024-11-06
 Slug: local-election-results
 Summary: Short version for index and feeds
 
