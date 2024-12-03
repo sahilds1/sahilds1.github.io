@@ -27,6 +27,7 @@ LINKS = (
 SOCIAL = (
     ("You can add links in your config file", "#"),
     ("Another social link", "#"),
+    ("GitHub", "https://github.com/sahildshah1")
 )
 
 DEFAULT_PAGINATION = 10
