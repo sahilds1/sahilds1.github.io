@@ -2,7 +2,6 @@ Title: Shell job control
 Date: 2024-10-07    
 Tags: shell
 Slug: shell-job-control
-Summary: Short version for index and feeds
 
 In a terminal, your process can be in one of 3 states
 
