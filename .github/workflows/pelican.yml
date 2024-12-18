@@ -14,4 +14,4 @@ jobs:
       settings: "publishconf.py"
       requirements: "-r requirements.txt"
       python: "3.13"
-      theme: "https://github.com/sahildshah1/pelican-bearblog.git"
+      theme: "https://github.com/sahilds1/pelican-bearblog.git"
