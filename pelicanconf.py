@@ -1,36 +1,64 @@
-AUTHOR = 'Sahil Shah'
+THEME = "."
+AUTHOR = "Sahil Shah"
 SITENAME = "Sahil Shah"
-SITEURL = ""
-
+SITEURL = "http://localhost:8000"
 PATH = "content"
+DELETE_OUTPUT_DIRECTORY = True
+OUTPUT_SOURCES = True
+TYPOGRIFY = True
+TYPOGRIFY_DASHES = "oldschool"
+TIMEZONE = "Europe/London"
+DEFAULT_LANG = "en"
+DEFAULT_PAGINATION = 10
+CATEGORIES_SAVE_AS = "categories/index.html"
+CATEGORIES_URL = "categories/"
+TAGS_SAVE_AS = "tags/index.html"
+TAGS_URL = "tags/"
+AUTHORS_SAVE_AS = "authors/index.html"
+AUTHORS_URL = "authors/"
+ARCHIVES_SAVE_AS = "archives/index.html"
+ARCHIVES_URL = "archives/"
+DISPLAY_CATEGORIES_ON_MENU = True
 
-TIMEZONE = 'America/New_York'
+DEFAULT_CATEGORY = "Tech"
 
-DEFAULT_LANG = 'en'
+FEED_DOMAIN = SITEURL
 
-# Feed generation is usually not desired when developing
-FEED_ALL_ATOM = None
-CATEGORY_FEED_ATOM = None
-TRANSLATION_FEED_ATOM = None
-AUTHOR_FEED_ATOM = None
-AUTHOR_FEED_RSS = None
+# Make the URLs of article permalink pages nicer.
+ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
+ARTICLE_URL = '{date:%Y}/{date:%m}/{date:%d}/{slug}/'
+ARTICLE_SOURCE_URL = "{article.url}index{OUTPUT_SOURCES_EXTENSION}"
 
-# Blogroll
+# Make the URLs of period archive pages nicer.
+YEAR_ARCHIVE_SAVE_AS = "{date:%Y}/index.html"
+YEAR_ARCHIVE_URL = "{date:%Y}/"
+MONTH_ARCHIVE_SAVE_AS = "{date:%Y}/{date:%m}/index.html"
+MONTH_ARCHIVE_URL = "{date:%Y}/{date:%m}/"
+DAY_ARCHIVE_SAVE_AS = "{date:%Y}/{date:%m}/{date:%d}/index.html"
+DAY_ARCHIVE_URL = "{date:%Y}/{date:%m}/{date:%d}/"
+
+# Make the URLs of static pages nicer.
+PAGE_SAVE_AS = '{slug}/index.html'
+PAGE_URL = '{slug}/'
+PAGE_SOURCE_URL = "{page.url}index{OUTPUT_SOURCES_EXTENSION}"
+
 LINKS = (
     ("Pelican", "https://getpelican.com/"),
-    ("Python.org", "https://www.python.org/"),
-    ("Jinja2", "https://palletsprojects.com/p/jinja/"),
-    ("You can modify those links in your config file", "#"),
+    ("Oatcake", "https://github.com/seanh/oatcake"),
+    ("GitHub", "https://github.com/sahilds1"),
 )
 
-# Social widget
-SOCIAL = (
-    ("You can add links in your config file", "#"),
-    ("Another social link", "#"),
-    ("GitHub", "https://github.com/sahildshah1")
-)
 
-DEFAULT_PAGINATION = 10
+SIDECAR_MENU = [
+    "HOME",
+    "MENUITEMS",
+    "PAGES",
+    "TAGS",
+    "ARCHIVES",
+]
 
-# Uncomment following line if you want document-relative URLs when developing
-# RELATIVE_URLS = True
+SIDECAR_TAGLINE = [
+    "TIME",
+    "AUTHORS",
+    "TAGS",
+]
