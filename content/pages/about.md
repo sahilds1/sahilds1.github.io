@@ -1,8 +1,9 @@
 Title: About
 
-Hey! I'm Sahil. Welcome to my blog
+# About this blog
 
-[NLG Evaluations](https://docs.google.com/presentation/d/12tyMLrGUz2PWrAeoFZ4dxeP-JbMoaSLTMFpBwBVneKw/edit?usp=sharing)
+Hey! I'm Sahil. This blog is about my software projects and learnings.
 
+Here's the Atom feed for my site: `https://sahilds1.github.io/feeds/all.atom.xml`
 
-[Network-Based Biostatistics](https://docs.google.com/presentation/d/1lMztWdnEaMAjX8oVJoopJ54ytbRIWsnjJeFxkXF2E4I/edit?usp=sharing)
+This site was built using Pelican and uses a theme based on Bear Blog.
