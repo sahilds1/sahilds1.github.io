@@ -1,5 +1,6 @@
 Title: Local Election Results
 Date: 2024-11-06
+Tags:
 Slug: local-election-results
 Summary: Short version for index and feeds
 

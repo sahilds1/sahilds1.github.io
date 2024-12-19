@@ -1,6 +1,8 @@
 Title: Personal Website
 Date: 2024-11-15
+Tags:
 Slug: personal-website
+Summary: Short version for index and feeds
 
 `Pelican` "static site generator"
 

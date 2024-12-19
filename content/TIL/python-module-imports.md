@@ -1,7 +1,10 @@
-Title: Python module imports
+Title: Fixing Python module import errors using `sys.path`
 Date: 2022-05-23  
 Tags: python
 Slug: python-module-imports
+Summary: Fixing Python module import errors using `sys.path`
+Status: draft
+
 
 Python looks for modules in the directories listed in the variable `sys.path`
 
