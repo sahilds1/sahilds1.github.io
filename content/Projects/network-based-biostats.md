@@ -3,6 +3,7 @@ Date: 2019-06-25
 Tags:
 Slug:
 Summary: Short version for index and feeds
+Status: draft
 
 
 

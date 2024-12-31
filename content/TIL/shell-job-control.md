@@ -10,7 +10,7 @@ In a terminal, your process can be in one of 3 states
 
 1. Foreground: Normal state when you start a process
 2. Background: Process is still running but you can't interact with it
-3. Stopped: Process is paused (won't keep using CPU) but you can restarte it
+3. Stopped: Process is paused (won't keep using CPU) but you can restart it
 
 Commands for moving processes between these 3 states
 

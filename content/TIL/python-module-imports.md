@@ -9,10 +9,10 @@ Status: draft
 Python looks for modules in the directories listed in the variable `sys.path`
 
 To make sure a directory is always on the Python `sys.path` list when you run Python
-- Use the `PYTHONPATH` enviornment varaible
+- Use the `PYTHONPATH` environment variable
 - Make a Python package and install it
 
-As a hack, put the directon on the Python sys.path
+As a hack, put the directory on the Python sys.path
 
 ```
 import sys

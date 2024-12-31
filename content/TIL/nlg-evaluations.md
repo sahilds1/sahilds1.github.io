@@ -1,6 +1,6 @@
 Title: Evaluating Natural Language using Fine-tuned LLMs
 Date: 2024-03-13  
-Tags: llm
+Tags: llms
 Slug: nlg-evaluations
 Summary: Evaluating Natural Language using Fine-tuned LLMs
 
