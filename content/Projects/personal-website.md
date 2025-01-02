@@ -1,23 +1,21 @@
 Title: Building a Personal Website using a Static Site Generator
 Date: 2024-11-15
-Tags:
+Tags: python, static site generator, pelican
 Slug: personal-website
 Summary: Building a Personal Website using a Static Site Generator
-Status: draft
+Status: published
 
-# Static Site Generators (SSGs)
+# Building a Personal Website using a Static Site Generator
 
- Jekyll takes Markdown and HTML files and creates a complete static website based on your choice of layouts. Jekyll supports Markdown and Liquid, a templating language that loads dynamic content on your site. For more information, see Jekyll.
+To start blogging about software projects, I built this site using Pelican, Sidecar, and GitHub
 
-Ecosystem review
-- **Jekyll:** Ruby-based, known for its simplicity and blog-awareness.
-- **Hugo:** Go-based, known for its speed and flexibility.
-- **Eleventy**: JavaScript-based, known for its simplicity and extensibility.
+- [Pelican](https://github.com/getpelican/pelican): A static site generator tool that builds these web pages from content in text files and templatized HTML
+- [Sidecar](https://github.com/seanh/sidecar): A Pelican "theme" of CSS stylesheets and HTML templates used by Pelican during the building of this site
+- [GitHub](https://github.com/): A platform to host this site on GitHub Pages and build the web pages using Pelican and GitHub Actions
 
-https://jvns.ca/blog/2016/10/09/switching-to-hugo/
+# Static Site Generator: `Pelican` 
 
-
-# `Pelican` 
+<!-- I built this site using Pelican  which 
 
 1. "Blog aware"
 2. "Themes"
@@ -28,16 +26,13 @@ Alternatives:
 - **Hugo:** Go-based, known for its speed and flexibility.
 - **Eleventy**: JavaScript-based, known for its simplicity and extensibility.
 
+https://g.co/gemini/share/baba75f19848 -->
 
-https://g.co/gemini/share/baba75f19848
+## Pelican Theme: `Sidecar`
 
-# `Sidecar` and `Oatmeal`
-
-
-https://github.com/seanh/sidecar/blob/main/pelicanconf.py
+<!-- https://github.com/seanh/sidecar/blob/main/pelicanconf.py
 
 https://docs.getpelican.com/en/latest/settings.html
-
 
 Modify the  simple theme HTML and Bear Blog CSS for color, etc.
 
@@ -45,6 +40,6 @@ https://docs.getpelican.com/en/latest/themes.html
 
 https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics
 https://css-tricks.com/category/articles/
-https://docs.getpelican.com/en/latest/themes.html
+https://docs.getpelican.com/en/latest/themes.html -->
 
-# GitHub  Pages and Actions
+# Hosting: `GitHub`
