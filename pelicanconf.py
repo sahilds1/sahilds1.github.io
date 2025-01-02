@@ -43,8 +43,6 @@ PAGE_URL = '{slug}/'
 PAGE_SOURCE_URL = "{page.url}index{OUTPUT_SOURCES_EXTENSION}"
 
 LINKS = (
-    ("Pelican", "https://getpelican.com/"),
-    ("Oatcake", "https://github.com/seanh/oatcake"),
     ("GitHub", "https://github.com/sahilds1"),
 )
 
