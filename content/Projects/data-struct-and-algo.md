@@ -7,15 +7,13 @@ Status: published
 
 # Writing Algorithms using Python Constructs
 
-
 ## Control Flow
-
 
 ### Check conditions in order and execute the first true one using `if … elif … elif …`
 
 When the conditions are mutually exclusive and exhaustive, it's easy to reason about:
 
-```
+```{python}
 output = [] 
 for x in range(1, 5):
     if x % 3 == 0:
@@ -29,7 +27,7 @@ for x in range(1, 5):
 
 When the conditions aren't mutually exclusive, the order of the conditions matters:
 
-```
+```{python}
 output = [] 
 for x in range(12, 16):
     if x % 3 == 0:
@@ -42,7 +40,8 @@ for x in range(12, 16):
 ['Fizz', '13', '14', 'Fizz']
 ```
 
-```
+
+```{python}
 output = [] 
 for x in range(12, 16):
     if x % 5 == 0:
@@ -55,11 +54,13 @@ for x in range(12, 16):
 ['Fizz', '13', '14', 'Buzz']
 ```
 
-Note the use of the `else` clause  to make the `if … elif … elif …` construct exhaustive 
+When the conditions are reordered, the output for `x=15` changes from `Fizz` to `Buzz`. Note the use of the
+`else` clause to make the `if … elif … elif …` construct exhaustive. 
 
-To make overlapping conditions easier to reason about, we can explicitly enumerate them using logical operators
 
-```
+To make overlapping conditions easier to reason about, we can explicitly enumerate them using logical operators:
+
+```{python}
 output = [] 
 for x in range(12, 16):
     if (x % 3 == 0) and (x % 5 == 0):
@@ -74,9 +75,9 @@ for x in range(12, 16):
 ['Fizz', '13', '14', 'FizzBuzz']
 ```
 
-If the overlapping conditions have a natural ordering, we can order them from most to least specific 
+If the overlapping conditions have a natural ordering, we can order them from most to least specific:
 
-```
+```{python}
 x = 10
 
 if x > 20:
@@ -89,8 +90,8 @@ else:
     print("x is non-positive")
 
 x is positive
-
 ```
+
 <!--
 For cases where you need to choose from a very large number of possibilities, 
 you can create a dictionary mapping case values to functions to call. For example:
