@@ -2,7 +2,7 @@ Title: Network-Based Biostatistics
 Date: 2019-06-25
 Tags:
 Slug:
-Summary: Short version for index and feeds
+Summary: Network-Based Biostatistics
 Status: published
 
 Here is my PhD thesis presentation on network-based biostatistics:

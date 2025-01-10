@@ -167,7 +167,7 @@ Giving the user the ability to define both the iteration step and halting condit
 
 -->
 
-## Data Structures
+<!-- ## Data Structures -->
 
 
 <!-- ### The variable length array high level data types  include the list 
