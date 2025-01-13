@@ -15,31 +15,26 @@ To start blogging about software projects, I built this site using Pelican, Side
 
 # Static Site Generator: `Pelican` 
 
-<!-- I built this site using Pelican  which 
+Pelican's a Python based static site generator that has built-in blogging features and a variety  of community-created themes. 
 
-1. "Blog aware"
-2. "Themes"
-3. "Python based"
+Alternatives in other languages are: 
 
-Alternatives:
-- **Jekyll:** Ruby-based, known for its simplicity and blog-awareness.
-- **Hugo:** Go-based, known for its speed and flexibility.
-- **Eleventy**: JavaScript-based, known for its simplicity and extensibility.
+- [Jekyll](https://github.com/jekyll/jekyll): Ruby-based, notable for its integration with GitHub Pages
+- [Hugo](https://github.com/gohugoio/hugo): Go-based, notable for its speed at building large sites
+- [Eleventy](https://github.com/11ty/eleventy/): JavaScript-based, notable for its flexible HTML templating system
 
-https://g.co/gemini/share/baba75f19848 -->
+I chose Pelican because I wanted to use my site to blog and already had a Python development environment. 
+
+After installing Pelican, you can set up a skeleton project using Pelican's `pelican-quickstart` tool. 
 
 ## Pelican Theme: `Sidecar`
 
-<!-- https://github.com/seanh/sidecar/blob/main/pelicanconf.py
+Pelican has built in "simple" HTML templates that can be modified and styled using  CSS.
 
-https://docs.getpelican.com/en/latest/settings.html
+A variety of community created themes are available on GitHub
 
-Modify the  simple theme HTML and Bear Blog CSS for color, etc.
-
-https://docs.getpelican.com/en/latest/themes.html
-
-https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics
-https://css-tricks.com/category/articles/
-https://docs.getpelican.com/en/latest/themes.html -->
+I chose to use the community created `Sidecar` theme  because I don't have experience with CSS.
 
 # Hosting: `GitHub`
+
+To have GitHub run `pelican` for you and build your site, you can use a GitHub Actions workflow  
