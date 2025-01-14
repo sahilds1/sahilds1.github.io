@@ -167,22 +167,126 @@ Giving the user the ability to define both the iteration step and halting condit
 
 -->
 
-<!-- ## Data Structures -->
+## Data Structures
+
+### Implement other data structures or directly solve problems using the `list`
+
+The Python `list` is a dynamic array that can grow as we need it to: 
+
+```
+In:
+cubes = [1, 8, 27, 65, 125]
+cubes[len(cubes):] = [6 ** 3] 
+cubes[len(cubes):] = [7 ** 3]
+
+Out: [1, 8, 27, 64, 125, 216, 343]
+
+```
+
+Note that "indexing" and "slicing" handle out of range indices differently
+
+The syntax for slicing is `list[start:stop:step]` where start is inclusive and stop is exclusive
+
+If omitted, start defaults to 0 and stop defaults to to the end of the list 
+
+```
+In: cubes =  [1, 8, 27, 64, 125, 216, 343]
+
+In: cubes[len(cubes)]
+Out: IndexError: list index out of range
+
+In: cubes[len(cubes):]
+Out: []
+
+```
+
+Both "indexing" and "slicing" of Python lists can handle negative indices
+
+-1 refers to the last element  and negatives indices count from the end of the list 
 
 
-<!-- ### The variable length array high level data types  include the list 
+```
+In: cubes =  [1, 8, 27, 64, 125, 216, 343]
 
-which can be used as a stack or queue using append, pop and insert
-CPython’s lists are really variable-length arrays, not Lisp-style linked lists. 
-When items are appended or inserted, the array of references is resized.
-Lists are mutable, and their elements are usually homogeneous and are accessed by iterating over the list.
+In: cubes[-1]
+Out: 343
+
+In: cubes[-len(cubes)]
+Out: 1
+
+In: cubes[-1:-len(cubes):-1]
+Out: [343, 216, 125, 65, 27, 8]
+
+```
+
+We can replace and remove values from a Python `list` using slicing: 
+
+```
+In: letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g']
+
+In: letters[2:5] = ['C', 'D', 'E']
+Out: ['a', 'b', 'C', 'D', 'E', 'f', 'g']
+
+In: letters[2:5] = []
+Out: ['a', 'b', 'f', 'g']
+```
+
+An alternative to indexing and slicing is Python list methods:
+
+Note that list.insert(i,x) inserts x before index i
+
+```
+In: cubes = [1, 8, 27, 65, 125]
+
+In: cubes.append(6**3)
+Out: [1, 8, 27, 65, 125, 216]
+
+In: cubes.insert(len(cubes), 7**3)
+Out: [1, 8, 27, 65, 125, 216, 343]
+
+In: cubes.insert(0,0**3)
+Out: [0, 1, 8, 27, 65, 125, 216, 343]
+
+In: cubes.pop()
+Out: [0, 1, 8, 27, 65, 125, 216]
+
+In: cubes.pop(0)
+Out: [1, 8, 27, 65, 125, 216]
+
+
+```
+
+<!-- It's a mutable object so all variables that refer to it will see any changes to it:
+
+
+```
+rgb = ["Red", "Green", "Blue"]
+rgba = rgb
+id(rgb) == id(rgba)  # they reference the same object
+True
+rgba.append("Alph")
+rgb
+["Red", "Green", "Blue", "Alph"]
+
+
+```
+
+You might have noticed that methods like insert, remove or sort that only modify the list have no return value printed – they return the default None.
+ This is a design principle for all mutable data structures in Python. -->
+
+
+
+<!-- The list can be used as a stack using the append and pop operations:
+
 While appends and pops from the end of list are fast, doing inserts or pops from 
-the beginning of a list is  slow (because all of the other elements have to be shifted by one).
-If we have a mutable object (list, dict, set, etc.), we can use some specific operations to mutate it and all the variables that refer to it will see the change.
+the beginning of a list is  slow (because all of the other elements have to be shifted by one). -->
 
-### Indexing a sequence from the last index seq[len(seq)-n] can be written as  seq[-n]
-S[:-1] is all of the string except for its last character, which is useful for removing the trailing newline from a string.
 
+
+
+<!-- 
+
+### Implement other data or solve problems using linked lists
 
 Defining a singly linked linked list using Python classes 
 
