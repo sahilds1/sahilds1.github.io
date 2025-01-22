@@ -55,10 +55,9 @@ Out: -2
 
 ```
 
+<!-- ## Calculate remainders using the `%` operator  -->
 
-<!-- ## Calculate remainders using the `%` operator 
-
-## Calculate powers using the `**` operator -->
+<!-- ## Calculate powers using the `**` operator -->
 
 
 ## Control Flow
@@ -151,21 +150,41 @@ else:
 Out: x is positive
 ```
 
-<!--
-For cases where you need to choose from a very large number of possibilities, 
-you can create a dictionary mapping case values to functions to call. For example:
 
-### The while loop condition can be a  string or list value or any sequence
+<!-- ### Iterate without a counter variable using a while loop
+
+Iterate if a condition is met an unknown number of times using a while loop
+
+A while loop is more suitable than a for loop in scenarios where you don't know in advance how many 
+iterations are required and instead need to loop until a certain condition is met
+
+In a while loop something inside the loop triggers the loop to stop 
+
+A do while loop is executed at least one  time
+
+
+The while loop condition can be a  string or list value or any sequence
 The conditions used in while and if statements can contain any operators, not just comparisons.
 
-### Python’s for statement iterates over the items of any sequence (a list or a string)
+
+### Iterate with a counter variable using a for loop
+
+Iterate a known number of times  using a counter and a while loop or for loop
+
+A while loop can be used to replace a for loop using a counter variable initialization, test and increment
+
+It is sometimes tempting to change a list while you are looping over it; however, it is often simpler and safer to create a new list instead.
+
+Python’s for statement iterates over the items of any sequence (a list or a string)
 Giving the user the ability to define both the iteration step and halting condition (as C), 
+**The counter variable  is used to  perform an operation on the sequence**
 
-### Index variables for iterating through a list or two lists  can be written as an enumerate or  zip respectively 
+Index variables for iterating through a list or two lists  can be written as an enumerate or  zip respectively 
 
-### A break statement in a for or while loop can be paired with an else clause
+A break statement in a for or while loop can be paired with an else clause
 
--->
+### itertools; This module implements a number of iterator building blocks inspired by constructs from APL, Haskell, and SML.  -->
+
 
 ## Data Structures
 
@@ -233,6 +252,8 @@ Out: ['a', 'b', 'f', 'g']
 
 An alternative to indexing and slicing is Python list methods:
 
+<!-- Methods that only modify mutable data structures have no return value in Python  -->
+
 Note that list.insert(i,x) inserts x before index i
 
 ```
@@ -255,33 +276,6 @@ Out: [1, 8, 27, 65, 125, 216]
 
 
 ```
-
-<!-- It's a mutable object so all variables that refer to it will see any changes to it:
-
-
-```
-rgb = ["Red", "Green", "Blue"]
-rgba = rgb
-id(rgb) == id(rgba)  # they reference the same object
-True
-rgba.append("Alph")
-rgb
-["Red", "Green", "Blue", "Alph"]
-
-
-```
-
-You might have noticed that methods like insert, remove or sort that only modify the list have no return value printed – they return the default None.
- This is a design principle for all mutable data structures in Python. -->
-
-
-
-<!-- The list can be used as a stack using the append and pop operations:
-
-While appends and pops from the end of list are fast, doing inserts or pops from 
-the beginning of a list is  slow (because all of the other elements have to be shifted by one). -->
-
-
 
 
 <!-- 
@@ -313,23 +307,38 @@ node2.next = node3
 # node1 -> node2 -> node3
 
 Time to execute various operations for this implementation 
-Access value  at index iterate vs  array list  access in constant time -->
+Access value  at index iterate vs  array list  access in constant time 
+
+-->
 
 
+<!-- 
 
-<!-- ### High level data types include the set data type can be used for membership testing and eliminating duplicate entries
+### High level data types include the str data type which are arrays of Unicode
+
+https://docs.python.org/3/library/stdtypes.html#textseq 
+
+
+### High level data types include the set data type can be used for membership testing and eliminating duplicate entries
 . The use of sorted() in combination with set() over a sequence is an idiomatic way to loop over unique elements of the sequence in sorted order.
 Python can search for items in a set or dictionary by attempting to directly accessing them without iterations,
 
-###High level data types include the default dict which do not return an error to extract a value using a non-existent key
+### High level data types include the default dict which do not return an error to extract a value using a non-existent key
 CPython’s dictionaries are implemented as resizable hash tables.
 While looping through dict , keys and values can be retrieved same time using items
 
+
+### The list can be used as a stack using the append and pop operations:
+
+While appends and pops from the end of list are fast, doing inserts or pops from 
+the beginning of a list is  slow (because all of the other elements have to be shifted by one).
 
 ### High level data type include the matrix data type provided by NumPy for multidimensional arrays
 Replicating a list with * doesn’t create copies, it only creates references to the existing objects.
 
 ### High level data types includes collections.Count for bags or multisets in other languages
 Counter objects have a dictionary interface except that they return a zero count for missing items
-A Counter is a dict subclass for counting hashable objects. It is a collection where elements are stored as dictionary keys and their counts are stored as dictionary values. -->
+A Counter is a dict subclass for counting hashable objects. It is a collection where elements are stored as dictionary keys and their counts are stored as dictionary values.
+
+-->
 
