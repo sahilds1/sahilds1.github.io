@@ -1,19 +1,18 @@
-Title: Learning Notes: Data Structures and Algorithms
+Title: Learning Notes: Writing Algorithms using Python Constructs
 Date: 2024-12-19
 Tags: python
 Slug: data-structures-and-algorithms
-Summary: Learning Notes: Data Structures and Algorithms
+Summary: Learning Notes: Writing Algorithms using Python Constructs
 Status: published
 
-# Writing Algorithms using Python Constructs
+<!-- Tocbot will turn this div into a table of contents. -->
+<div class="toc"></div>
 
-## Arithmetic Operations 
+# Arithmetic Operations 
 
-### Divide and "take the floor" in one step using the `//` operator
+## Divide and "take the floor" with the `//` operator
 
-"Taking the floor" of a number and truncating it are the same for positive numbers 
-because  the floor rounds it toward negative infinity and truncating rounds toward zero:
-
+"Taking the floor" of a number and truncating it are the same for positive numbers:  
 
 ```
 In: 5/2
@@ -27,7 +26,9 @@ Out: 2
 
 ```
 
-When the numbers are negative, taking the  floor and truncating aren't the same:
+The floor rounds it toward negative infinity and truncating rounds toward zero.
+
+When the numbers are negative, taking the floor and truncating aren't the same:
 
 ```
 In: -5/2
@@ -41,7 +42,7 @@ Out: -2
 
 ```
 
-When you need to round toward  positive infinity, you can "take the ceiling":
+When you need to round toward positive infinity, you can "take the ceiling":
 
 ```
 In: 5/2
@@ -55,14 +56,9 @@ Out: -2
 
 ```
 
-<!-- ## Calculate remainders using the `%` operator  -->
+# Control Flow
 
-<!-- ## Calculate powers using the `**` operator -->
-
-
-## Control Flow
-
-### Check conditions in order and execute the first true one using `if … elif … elif …`
+## Check conditions in order and select the first true one with `if … elif … elif …`
 
 When the conditions are mutually exclusive and exhaustive, it's easy to reason about:
 
@@ -110,9 +106,9 @@ for x in range(12, 16):
 Out: ['Fizz', '13', '14', 'Buzz']
 ```
 
-When the conditions are reordered, the output for `x=15` changes from `Fizz` to `Buzz`. Note the use of the
-`else` clause to make the `if … elif … elif …` construct exhaustive. 
+When the conditions are reordered, the output for `x=15` changes from `Fizz` to `Buzz`. 
 
+Note the use of the `else` clause to make the `if … elif … elif …` construct exhaustive. 
 
 To make overlapping conditions easier to reason about, we can explicitly enumerate them using logical operators:
 
@@ -150,8 +146,38 @@ else:
 Out: x is positive
 ```
 
+<!-- ## Iteratively execute as long as a condition is true using `while`  
 
-<!-- ### Iterate without a counter variable using a while loop
+
+```
+
+runningsum = [nums[0]]
+pointer = 1
+while pointer <= len(nums)-1:
+    runningsum.append(runningsum[pointer-1]+nums[pointer])
+
+    pointer += 1
+
+```
+
+
+
+Iterate as long as a condition hasn't been met using a while loop 
+
+
+
+Iteratively execute without needing to count the number of iterations using `while` 
+
+
+
+
+Execute without knowing the number of iterations in advance using `while` 
+
+
+Execute knowing the number of iterations in advance using  `for`
+
+
+Iterate without a counter variable using a while loop
 
 Iterate if a condition is met an unknown number of times using a while loop
 
@@ -162,12 +188,11 @@ In a while loop something inside the loop triggers the loop to stop
 
 A do while loop is executed at least one  time
 
-
 The while loop condition can be a  string or list value or any sequence
 The conditions used in while and if statements can contain any operators, not just comparisons.
 
 
-### Iterate with a counter variable using a for loop
+Iterate knowing the number the number of iterations using a for loop
 
 Iterate a known number of times  using a counter and a while loop or for loop
 
@@ -177,18 +202,18 @@ It is sometimes tempting to change a list while you are looping over it; however
 
 Python’s for statement iterates over the items of any sequence (a list or a string)
 Giving the user the ability to define both the iteration step and halting condition (as C), 
-**The counter variable  is used to  perform an operation on the sequence**
+The counter variable  is used to  perform an operation on the sequence
 
 Index variables for iterating through a list or two lists  can be written as an enumerate or  zip respectively 
 
 A break statement in a for or while loop can be paired with an else clause
 
-### itertools; This module implements a number of iterator building blocks inspired by constructs from APL, Haskell, and SML.  -->
+itertools; This module implements a number of iterator building blocks inspired by constructs from APL, Haskell, and SML.  -->
 
 
-## Data Structures
+# Data Structures
 
-### Implement other data structures or directly solve problems using the `list`
+## Allocate data to dynamic arrays with `list`
 
 The Python `list` is a dynamic array that can grow as we need it to: 
 
@@ -277,10 +302,72 @@ Out: [1, 8, 27, 65, 125, 216]
 
 ```
 
+<!-- # Access data by content using hashing with `dict` and `set`
+
+Retrieve or insert a key using square brackets
+
+```
+hash_map = {1: 2, 5: 3, 7: 2}
+
+hash_map[5] # 3
+
+hash_map[8] = 6
+
+hash_map = {}
+
+hash_map[5] # 3
+
+
+```
+
+# Get keys: use .keys(). You can iterate over this using a for loop.
+keys = hash_map.keys()
+for key in keys:
+    print(key)
+
+.items
+
+Delete a key using the `del`  keyword
+
+```
+del hash_map[9]
+
+```
+
+Update a key using square brackets
+
+```
+```
+
+
+
+# Checking if a key exists: simply use the `in` keyword
+1 in hash_map # True
+9 in hash_map # False
+
+
+
+### High level data types include the default dict which do not return an error to extract a value using a non-existent key
+CPython’s dictionaries are implemented as resizable hash tables.
+While looping through dict , keys and values can be retrieved same time using items
+
+
+### High level data types includes collections.Count for bags or multisets in other languages
+Counter objects have a dictionary interface except that they return a zero count for missing items
+A Counter is a dict subclass for counting hashable objects. It is a collection where elements are stored as dictionary keys and their counts are stored as dictionary values.
+
+Set objects also support mathematical operations like union, intersection, difference, and symmetric difference.
+
+
+### High level data types include the set data type can be used for membership testing and eliminating duplicate entries
+. The use of sorted() in combination with set() over a sequence is an idiomatic way to loop over unique elements of the sequence in sorted order.
+Python can search for items in a set or dictionary by attempting to directly accessing them without iterations, -->
+
+
 
 <!-- 
 
-### Implement other data or solve problems using linked lists
+### Implement other data structures or solve problems using the linked lists
 
 Defining a singly linked linked list using Python classes 
 
@@ -312,33 +399,23 @@ Access value  at index iterate vs  array list  access in constant time
 -->
 
 
-<!-- 
-
-### High level data types include the str data type which are arrays of Unicode
-
-https://docs.python.org/3/library/stdtypes.html#textseq 
-
-
-### High level data types include the set data type can be used for membership testing and eliminating duplicate entries
-. The use of sorted() in combination with set() over a sequence is an idiomatic way to loop over unique elements of the sequence in sorted order.
-Python can search for items in a set or dictionary by attempting to directly accessing them without iterations,
-
-### High level data types include the default dict which do not return an error to extract a value using a non-existent key
-CPython’s dictionaries are implemented as resizable hash tables.
-While looping through dict , keys and values can be retrieved same time using items
-
+<!--
 
 ### The list can be used as a stack using the append and pop operations:
 
 While appends and pops from the end of list are fast, doing inserts or pops from 
 the beginning of a list is  slow (because all of the other elements have to be shifted by one).
 
-### High level data type include the matrix data type provided by NumPy for multidimensional arrays
-Replicating a list with * doesn’t create copies, it only creates references to the existing objects.
+-->
 
-### High level data types includes collections.Count for bags or multisets in other languages
-Counter objects have a dictionary interface except that they return a zero count for missing items
-A Counter is a dict subclass for counting hashable objects. It is a collection where elements are stored as dictionary keys and their counts are stored as dictionary values.
+<!-- 
+
+### High level data types include the str data type which are arrays of Unicode
+
+https://docs.python.org/3/library/stdtypes.html#textseq 
 
 -->
+
+<!-- ### High level data type include the matrix data type provided by NumPy for multidimensional arrays
+Replicating a list with * doesn’t create copies, it only creates references to the existing objects. -->
 
