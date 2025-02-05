@@ -2,7 +2,7 @@ Title: Building a LeetCode Problem Launcher using Python
 Date: 2025-02-05
 Tags:
 Slug: 
-Summary: https://github.com/sahilds1/tiny-tools
+Summary: [https://github.com/sahilds1/tiny-tools]
 Status: published
 
 #  Building a LeetCode Problem Launcher using Python
