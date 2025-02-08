@@ -2,9 +2,8 @@ Title: TIL: Python Virtual Environments Using Conda
 Date: 2020-08-10
 Tags: python
 Slug: python-virtual-env-using-conda
+Summary:
 Status: published
-
-# TIL: Python Virtual Environments Using Conda
 
 The `Miniconda` Python installation for data science includes `conda`
 
