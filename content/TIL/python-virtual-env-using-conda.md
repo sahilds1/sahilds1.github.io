@@ -1,8 +1,7 @@
-Title: Python Virtual Environments Using Conda
+Title: TIL: Python Virtual Environments Using Conda
 Date: 2020-08-10
 Tags: python
 Slug: python-virtual-env-using-conda
-Summary: Python Virtual Environments Using Conda
 Status: published
 
 # TIL: Python Virtual Environments Using Conda

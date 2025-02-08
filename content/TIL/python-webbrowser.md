@@ -1,8 +1,7 @@
-Title: Open URLs in Python Using `webbrowser`
+Title: TIL: Open URLs in Python Using `webbrowser`
 Date: 2025-02-05  
 Tags: python
 Slug: python-webbrowser
-Summary: Open URLs in Python Using `webbrowser`
 Status: published
 
 # TIL: The Python Standard Library’s webbrowser Module
