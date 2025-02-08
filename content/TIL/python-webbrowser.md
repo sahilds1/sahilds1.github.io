@@ -5,13 +5,13 @@ Slug: python-webbrowser
 Summary: Today I Learned: Small tools and facts I've learned
 Status: published
 
-The `webbrowser` module can open URLs in a web browser from a script:
+The [`webbrowser` module](https://docs.python.org/3/library/webbrowser.html) can open URLs in a web browser from a script:
 
 ```
 webbrowser.open("https://www.python.org")
 ```
 
-It selects the default browser can open URLs in a new window or a new tab:
+It selects the default browser and can open URLs in a new window or a new tab:
 
 ``` 
 webbrowser.open_new("https://www.python.org")
