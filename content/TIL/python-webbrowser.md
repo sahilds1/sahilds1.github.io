@@ -2,7 +2,7 @@ Title: TIL: Open URLs in Python Using `webbrowser`
 Date: 2025-02-05  
 Tags: python
 Slug: python-webbrowser
-Summary:
+Summary: Some small tools and facts I've learned
 Status: published
 
 The `webbrowser` module can open URLs in a web browser from a script:
