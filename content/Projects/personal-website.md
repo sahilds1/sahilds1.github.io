@@ -1,11 +1,8 @@
 Title: Building a Personal Website using a Static Site Generator
 Date: 2024-11-15
-Tags: python, static site generator, pelican
-Slug: personal-website
-Summary: Building a Personal Website using a Static Site Generator
+Tags: python, static site generator
+Summary: Static site hosted on GitHub Pages: [https://github.com/sahilds1/sahilds1.github.io](https://github.com/sahilds1/sahilds1.github.io)
 Status: published
-
-# Building a Personal Website using a Static Site Generator
 
 To start blogging about software projects, I built this site using Pelican, Sidecar, and GitHub
 
@@ -13,7 +10,7 @@ To start blogging about software projects, I built this site using Pelican, Side
 - [Sidecar](https://github.com/seanh/sidecar): A Pelican "theme" of CSS stylesheets and HTML templates used by Pelican during the building of this site
 - [GitHub](https://github.com/): A platform to host this site on GitHub Pages and build the web pages using Pelican and GitHub Actions
 
-# Static Site Generator: `Pelican` 
+## Static Site Generator: `Pelican` 
 
 Pelican's a Python based static site generator that has built-in blogging features and a variety  of community-created themes. 
 
@@ -35,6 +32,6 @@ A variety of community created themes are available on GitHub
 
 I chose to use the community created `Sidecar` theme  because I don't have experience with CSS.
 
-# Hosting: `GitHub`
+## Hosting: `GitHub`
 
 To have GitHub run `pelican` for you and build your site, you can use a GitHub Actions workflow  
