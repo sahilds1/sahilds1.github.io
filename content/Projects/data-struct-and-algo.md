@@ -1,6 +1,6 @@
 Title: Writing Algorithms using Python Constructs
 Date: 2024-12-19
-Summary: Learning Notes: [https://docs.google.com/document/d/(]https://docs.google.com/document/d/1dPTWdNlQA2H2cDqxlVRRGb6ITOJRVPiCiR-kBSI5Uac/edit?usp=sharing)
+Summary: Learning Notes: [https://docs.google.com/document/d/](https://docs.google.com/document/d/1dPTWdNlQA2H2cDqxlVRRGb6ITOJRVPiCiR-kBSI5Uac/edit?usp=sharing)
 Status: published
 
 <!-- Tocbot will turn this div into a table of contents.
