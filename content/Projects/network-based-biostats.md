@@ -1,8 +1,6 @@
-Title: Network-Based Biostatistics
+Title: Building a Bioinformatics Tool using R
 Date: 2019-06-25
-Tags:
-Slug:
-Summary: Network-Based Biostatistics
+Summary: R script: https://github.com/sahilds1/gene-surrounder
 Status: published
 
 Here is my PhD thesis presentation on network-based biostatistics:
