@@ -2,8 +2,6 @@ Title: Evaluating Natural Language using Fine-tuned LLMs
 Date: 2024-03-13  
 Tags: llms
 Slug: nlg-evaluations
-Summary: Evaluating Natural Language using Fine-tuned LLMs
+Summary: Today I Learned: Small tools and facts I’ve learned
 
-Here is a technical paper deep dive on natural language generation evaluations:
-
-[NLG Evaluations](https://docs.google.com/presentation/d/12tyMLrGUz2PWrAeoFZ4dxeP-JbMoaSLTMFpBwBVneKw/edit?usp=sharing)
+Technical paper deep dive on natural language generation evaluations: [JudgeLM](https://docs.google.com/presentation/d/12tyMLrGUz2PWrAeoFZ4dxeP-JbMoaSLTMFpBwBVneKw/edit?usp=sharing)
