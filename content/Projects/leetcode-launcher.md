@@ -14,10 +14,10 @@ the LeetCode GraphQL API and the Python `requests` library
 ![Alt Text]({static}/images/screenshot.png)
 
 
-```
+<!-- ```
 curl 
 ```
 
 # Lessons Learned 
 
-# Next Steps
+# Next Steps -->
