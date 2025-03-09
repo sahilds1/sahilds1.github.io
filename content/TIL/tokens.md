@@ -1,4 +1,4 @@
-Title: TIL: Rules of Thumb for Converting Between Tokens and Words
+Title: TIL: Conversion Factors Between Tokens and Words
 Date: 2025-02-14
 Tags: llms
 Summary: Today I Learned: Small tools and facts I've learned
