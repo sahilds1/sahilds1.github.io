@@ -1,4 +1,4 @@
-Title: Cheat sheet of useful git log commands
+Title: TIL: Cheat sheet of useful git log commands
 Date: 2025-02-14
 Tags: git
 Summary: Today I Learned: Small tools and facts I've learned
