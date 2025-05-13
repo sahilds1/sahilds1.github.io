@@ -44,8 +44,8 @@ PAGE_SOURCE_URL = "{page.url}index{OUTPUT_SOURCES_EXTENSION}"
 
 LINKS = (
     ("GitHub", "https://github.com/sahilds1"),
+    ("LinkedIn", "https://www.linkedin.com/in/sahildshah1/"),
 )
-
 
 SIDECAR_MENU = [
     "HOME",
