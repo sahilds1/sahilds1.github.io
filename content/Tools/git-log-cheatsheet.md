@@ -2,7 +2,7 @@ Title: TIL: `git log` commands Cheatsheet
 Date: 2025-02-14
 Tags: git
 Summary: Today I Learned: Small tools and facts I've learned
-Status: published
+Status: draft
 
 
 ```

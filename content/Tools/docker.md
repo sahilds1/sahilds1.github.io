@@ -1,3 +1,5 @@
+Title: Docker
+Status: draft
 
 The error message you're seeing combined with Docker likely means your app is running inside a Docker container, and the container environment doesn't have the correct dependencies installed.
 

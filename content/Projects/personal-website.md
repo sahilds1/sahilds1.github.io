@@ -2,7 +2,7 @@ Title: Building a Personal Website using a Static Site Generator
 Date: 2024-11-15
 Tags: python, static site generator
 Summary: Site hosted on GitHub Pages: [https://github.com/sahilds1/sahilds1.github.io](https://github.com/sahilds1/sahilds1.github.io)
-Status: published
+Status: draft
 
 To start blogging about software projects, I built this site using Pelican, Sidecar, and GitHub
 

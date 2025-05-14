@@ -1,7 +1,7 @@
 Title: Analyzing Local Election Results using Streamlit
 Date: 2024-11-06
 Summary: Streamlit app: [https://github.com/sahilds1/local-election-results](https://github.com/sahilds1/local-election-results)
-Status: published
+Status: draft
 
 # Analyzing Local Election Results using Streamlit
 

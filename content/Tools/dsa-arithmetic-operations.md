@@ -1,3 +1,6 @@
+Title: Arithmetic Operations
+Status: draft
+
 # Arithmetic Operations 
 
 ## Divide and "take the floor" with the `//` operator

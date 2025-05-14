@@ -2,7 +2,7 @@ Title: TIL: Conversion Factors Between Tokens and Words
 Date: 2025-02-14
 Tags: llms
 Summary: Today I Learned: Small tools and facts I've learned
-Status: published
+Status: draft
 
 Helpful [rules of thumb](https://help.openai.com/en/articles/4936856-what-are-tokens-and-how-to-count-them) for understanding tokens:
 

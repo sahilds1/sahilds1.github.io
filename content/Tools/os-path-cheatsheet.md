@@ -2,7 +2,7 @@ Title: TIL: `os.path` commands Cheatsheet
 Date: 2025-03-10
 Tags: python
 Summary: Today I Learned: Small tools and facts I've learned
-Status: published
+Status: draft
 
 [os.path — Common pathname manipulations](https://docs.python.org/3/library/os.path.html)
 

@@ -2,7 +2,7 @@ Title: TIL: JSON
 Date: 2025-03-11
 Tags: 
 Summary: Today I Learned: Small tools and facts I've learned
-Status: published
+Status: draft
 
 
 You can convert Python data types to a JSON-formatted string with json.dumps() or write them to files using json.dump(). 
