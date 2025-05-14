@@ -43,6 +43,7 @@ PAGE_URL = '{slug}/'
 PAGE_SOURCE_URL = "{page.url}index{OUTPUT_SOURCES_EXTENSION}"
 
 LINKS = (
+    ("Atom Feed", "https://sahilds1.github.io/feeds/all.atom.xml"),
     ("GitHub", "https://github.com/sahilds1"),
     ("LinkedIn", "https://www.linkedin.com/in/sahildshah1/"),
 )
