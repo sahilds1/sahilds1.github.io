@@ -1,6 +1,7 @@
 Title: Evaluating Natural Language using Fine-tuned LLMs
 Date: 2024-03-13  
 Summary:
+Status: draft
 
 
 ![Alt Text]({static}/images/nlg-evaluations-screencap.png)
