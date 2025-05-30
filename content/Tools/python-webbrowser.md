@@ -3,7 +3,7 @@ Date: 2025-02-05
 Tags: python
 Slug: python-webbrowser
 Summary: Today I Learned: Small tools and facts I've learned
-Status: published
+Status: draft
 
 The [`webbrowser` module](https://docs.python.org/3/library/webbrowser.html) can open URLs in a web browser from a script:
 
