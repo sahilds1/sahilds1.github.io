@@ -1,8 +1,8 @@
-Title: TIL: Python Virtual Environments Using Conda
+Title: Cheat Sheet: Python Virtual Environments Using Conda
 Date: 2020-08-10
 Tags: python
-Summary: Today I Learned: Small tools and facts I've learned
-Status: draft
+Summary: Cheat Sheet: Python Virtual Environments Using Conda
+Status: published
 
 `conda` is a simple tool for managing virtual environments that's 
 included in the `Miniconda` Python installation for data science 
