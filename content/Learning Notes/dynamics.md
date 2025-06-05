@@ -1,14 +1,14 @@
-Title: Learning Notes: Predictions from the Dynamics of Pointers
+Title: Learning Notes: Pointer Dynamics
 Date: 2025-06-05
-Summary: Learning Notes: Predictions from the Dynamics of Pointers
+Summary: Learning Notes: Pointer Dynamics 
 Status: published
 
-Pointers at two different positions, we can compare the elements and make decisions based on comparisons 
-Comparing every two elements doesn't take advantage of predictable dynamics exist within data structure 
+<!-- Pointers at two different positions, we can compare the elements and make decisions based on comparisons 
+Comparing every two elements doesn't take advantage of predictable dynamics exist within data structure  -->
 
-Two Pointers
+<!-- Two Pointers -->
+
 Sorted array: When we move a pointer we can predict whether the value being moved to is greater or smaller 
-
 
 ```
 #167. Two Sum II - Input Array Is Sorted
@@ -16,11 +16,6 @@ Sorted array: When we move a pointer we can predict whether the value being move
 Given a 1-indexed array of integers numbers that is already sorted in non-decreasing order, find two numbers such that they add up to a specific target number. Let these two numbers be numbers[index1] and numbers[index2] where 1 <= index1 < index2 <= numbers.length.
 
 Return the indices of the two numbers, index1 and index2, added by one as an integer array [index1, index2] of length 2.
-
-
-# Examples?
-# Constraints
-# Runtime
 
 class Solution:
     def twoSum(self, numbers: List[int], target: int) -> List[int]:
@@ -38,9 +33,7 @@ class Solution:
                 j = j-1
 ```
 
-Symmetrical pattern: Palindromic string. Symmetrical pattern allows us to move two pointers toward the center 
-
-
+Symmetrical pattern allows us to move two pointers toward the center 
 
 
 ```
@@ -74,11 +67,7 @@ class Solution:
 
 ```
 
-
-Fast and Slow Pointers
-
-Relative position of two pointers gathers information about the data structure rather than indexing for linked lists where index based access not available 
-
+Fast and Slow Pointers: Relative position of two pointers gathers information about the data structure rather than indexing 
 
 ```
 #876. Middle of the Linked List
@@ -107,5 +96,3 @@ class Solution:
         return slow
 
 """
-
-
