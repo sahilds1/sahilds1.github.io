@@ -1,7 +1,7 @@
-Title: Cheat Sheet: Python Virtual Environments Using Conda
+Title: Cheat Sheet: Virtual Environments Using Conda
 Date: 2020-08-10
 Tags: python
-Summary: Cheat Sheet: Python Virtual Environments Using Conda
+Summary: Cheat Sheet: Virtual Environments Using Conda
 Status: published
 
 `conda` is a simple tool for managing virtual environments that's 
