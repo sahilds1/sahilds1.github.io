@@ -1,8 +1,7 @@
-
 Title: Balancer
 Date:
-Summary: 
+Summary:
 Status: draft
 
-We can extract rules from papers without using model’s using  Anthropic Citations , 
-which  implements the idea of Deterministic Quoting 
+We can extract rules from papers without using model’s using  Anthropic Citations ,
+which  implements the idea of Deterministic Quoting
