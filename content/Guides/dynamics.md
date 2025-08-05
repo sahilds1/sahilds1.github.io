@@ -1,14 +1,13 @@
 Title: Learning Notes: Pointer Dynamics
 Date: 2025-06-05
-Summary: Learning Notes: Pointer Dynamics 
 Status: published
 
-<!-- Pointers at two different positions, we can compare the elements and make decisions based on comparisons 
+<!-- Pointers at two different positions, we can compare the elements and make decisions based on comparisons
 Comparing every two elements doesn't take advantage of predictable dynamics exist within data structure  -->
 
 <!-- Two Pointers -->
 
-Sorted array: When we move a pointer we can predict whether the value being moved to is greater or smaller 
+Sorted array: When we move a pointer we can predict whether the value being moved to is greater or smaller
 
 ```
 #167. Two Sum II - Input Array Is Sorted
@@ -33,7 +32,7 @@ class Solution:
                 j = j-1
 ```
 
-Symmetrical pattern allows us to move two pointers toward the center 
+Symmetrical pattern allows us to move two pointers toward the center
 
 
 ```
@@ -67,7 +66,7 @@ class Solution:
 
 ```
 
-Fast and Slow Pointers: Relative position of two pointers gathers information about the data structure rather than indexing 
+Fast and Slow Pointers: Relative position of two pointers gathers information about the data structure rather than indexing
 
 ```
 #876. Middle of the Linked List
