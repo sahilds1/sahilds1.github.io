@@ -7,7 +7,7 @@ DELETE_OUTPUT_DIRECTORY = True
 OUTPUT_SOURCES = True
 TYPOGRIFY = True
 TYPOGRIFY_DASHES = "oldschool"
-TIMEZONE = "Europe/London"
+TIMEZONE = "America/New_York"
 DEFAULT_LANG = "en"
 DEFAULT_PAGINATION = 10
 DEFAULT_DATE_FORMAT = "%b %d, %Y"
@@ -83,11 +83,11 @@ MENUITEMS = (
 # Sidecar navbar configuration
 SIDECAR_NAVBAR = [
     "HOME",
-    "MENUITEMS",
     "PAGES",
     "CATEGORIES",
     "TAGS",
     "ARCHIVES",
+    "MENUITEMS",
     "GITHUB",  # Added since GITHUB_URL is set
 ]
 
@@ -95,7 +95,6 @@ SIDECAR_NAVBAR = [
 SIDECAR_ARTICLE_TAGLINE_ITEMS = [
     "TIME",
     "AUTHORS",
-    "CATEGORIES",
     "TAGS",
 ]
 
