@@ -18,9 +18,7 @@ AUTHORS_SAVE_AS = "authors/index.html"
 AUTHORS_URL = "authors/"
 ARCHIVES_SAVE_AS = "archives/index.html"
 ARCHIVES_URL = "archives/"
-DISPLAY_CATEGORIES_ON_MENU = True
 
-DEFAULT_CATEGORY = "Tech"
 
 FEED_DOMAIN = SITEURL
 
@@ -49,6 +47,9 @@ MENUITEMS = (
     ("LinkedIn", "https://www.linkedin.com/in/sahildshah1/"),
 )
 
+# GitHub URL for navbar
+GITHUB_URL = "https://github.com/sahilds1"
+
 # Sidecar navbar configuration (corrected from SIDECAR_MENU)
 SIDECAR_NAVBAR = [
     "HOME",
@@ -57,6 +58,7 @@ SIDECAR_NAVBAR = [
     "CATEGORIES",
     "TAGS",
     "ARCHIVES",
+    "GITHUB",  # Added since GITHUB_URL is set
 ]
 
 # Sidecar article tagline configuration (corrected from SIDECAR_TAGLINE)
