@@ -7,20 +7,21 @@ DELETE_OUTPUT_DIRECTORY = True
 OUTPUT_SOURCES = True
 TYPOGRIFY = True
 TYPOGRIFY_DASHES = "oldschool"
-TIMEZONE = "America/New_York"
+TIMEZONE = "Europe/London"
 DEFAULT_LANG = "en"
 DEFAULT_PAGINATION = 10
-CATEGORIES_SAVE_AS = "categories/index.html"
-CATEGORIES_URL = "categories/"
-TAGS_SAVE_AS = "tags/index.html"
-TAGS_URL = "tags/"
-AUTHORS_SAVE_AS = "authors/index.html"
-AUTHORS_URL = "authors/"
-ARCHIVES_SAVE_AS = "archives/index.html"
-ARCHIVES_URL = "archives/"
-
+DEFAULT_DATE_FORMAT = "%b %d, %Y"
+FORMATTED_FIELDS = ["summary", "subheading", "subtitle"]
 
 FEED_DOMAIN = SITEURL
+
+# GitHub URL for navbar
+GITHUB_URL = "https://github.com/sahilds1"
+
+# Optional: Homepage bio section
+SITESUBTITLE = "Your tagline here"
+SITEBIO = """Your bio text here"""
+AVATAR_URL = "{SITEURL}/{THEME_STATIC_DIR}/images/avatar.jpg"
 
 # Make the URLs of article permalink pages nicer.
 ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
@@ -40,17 +41,46 @@ PAGE_SAVE_AS = '{slug}/index.html'
 PAGE_URL = '{slug}/'
 PAGE_SOURCE_URL = "{page.url}index{OUTPUT_SOURCES_EXTENSION}"
 
-# Links (renamed from LINKS to MENUITEMS for Sidecar compatibility)
-MENUITEMS = (
-    ("Atom Feed", "https://sahilds1.github.io/feeds/all.atom.xml"),
-    ("GitHub", "https://github.com/sahilds1"),
-    ("LinkedIn", "https://www.linkedin.com/in/sahildshah1/"),
+# Make the URL of the archives page nicer.
+ARCHIVES_SAVE_AS = "archives/index.html"
+ARCHIVES_URL = "archives/"
+
+# Make the URL of the authors page nicer.
+AUTHORS_SAVE_AS = "authors/index.html"
+AUTHORS_URL = "authors/"
+
+# Make the URLs of author pages nicer.
+AUTHOR_SAVE_AS = "author/{slug}/index.html"
+AUTHOR_URL = "author/{slug}/"
+
+# Make the URL of the tags page nicer.
+TAGS_SAVE_AS = "tags/index.html"
+TAGS_URL = "tags/"
+
+# Make the URLs of tag pages nicer.
+TAG_SAVE_AS = "tag/{slug}/index.html"
+TAG_URL = "tag/{slug}/"
+
+# Make the URL of the categories page nicer.
+CATEGORIES_SAVE_AS = "categories/index.html"
+CATEGORIES_URL = "categories/"
+
+# Make the URLs of category pages nicer.
+CATEGORY_SAVE_AS = "category/{slug}/index.html"
+CATEGORY_URL = "category/{slug}/"
+
+# Make pagination URLs nicer.
+PAGINATION_PATTERNS = (
+    (1, "{base_name}", "{save_as}"),
+    (2, "{base_name}/page/{number}/", "{base_name}/page/{number}/index.html"),
 )
 
-# GitHub URL for navbar
-GITHUB_URL = "https://github.com/sahilds1"
+# Menu items for navbar
+MENUITEMS = (
+    ("Atom Feed", "https://sahilds1.github.io/feeds/all.atom.xml"),
+)
 
-# Sidecar navbar configuration (corrected from SIDECAR_MENU)
+# Sidecar navbar configuration
 SIDECAR_NAVBAR = [
     "HOME",
     "MENUITEMS",
@@ -61,39 +91,24 @@ SIDECAR_NAVBAR = [
     "GITHUB",  # Added since GITHUB_URL is set
 ]
 
-# Sidecar article tagline configuration (corrected from SIDECAR_TAGLINE)
+# Sidecar article tagline configuration
 SIDECAR_ARTICLE_TAGLINE_ITEMS = [
     "TIME",
     "AUTHORS",
+    "CATEGORIES",
     "TAGS",
 ]
 
-# Optional: Configure article footer items
-# SIDECAR_ARTICLE_FOOTER_ITEMS = ["AUTHORS"]
-
-# Optional: Configure page tagline and footer items
-# SIDECAR_PAGE_TAGLINE_ITEMS = []
-# SIDECAR_PAGE_FOOTER_ITEMS = ["TIME"]
-
-# Optional: Set date format for better appearance
-# DEFAULT_DATE_FORMAT = "%b %d, %Y"
-
-# Optional: Configure GitHub URL for navbar GitHub icon
-# GITHUB_URL = "https://github.com/sahilds1"
-
-# Optional: Configure site bio for homepage
-# AVATAR_URL = "https://gravatar.com/avatar/..."
-# SITESUBTITLE = "Your site subtitle"
-# SITEBIO = "Your bio text"
-
-# Optional: Configure syntax highlighting theme
-# SIDECAR_PYGMENTS_THEME = "monokai"
-# SIDECAR_PYGMENTS_BORDERLESS = True
-
-# Optional: Configure custom CSS
-# STYLESHEET = """
-#     :root {
-#       --ok-color-bg: #ff851b;
-#       --ok-color-fg: #85144b;
-#     }
-# """
+# Markdown configuration for code highlighting
+MARKDOWN = {
+    'extension_configs': {
+        'markdown.extensions.codehilite': {
+            'css_class': 'highlight',
+            'linenums': False,
+            'guess_lang': False,
+        },
+        'markdown.extensions.extra': {},
+        'markdown.extensions.meta': {},
+    },
+    'output_format': 'html5',
+}
