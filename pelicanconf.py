@@ -19,7 +19,7 @@ FEED_DOMAIN = SITEURL
 GITHUB_URL = "https://github.com/sahilds1"
 
 # Optional: Homepage bio section
-SITESUBTITLE = "Sahil Shah Blog"
+SITESUBTITLE = "Sahil Shah's Blog"
 #SITEBIO = """Your bio text here"""
 AVATAR_URL = "{SITEURL}/{THEME_STATIC_DIR}/images/avatar.jpg"
 
