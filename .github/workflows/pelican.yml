@@ -14,4 +14,4 @@ jobs:
       settings: "pelicanconf.py"
       requirements: "-r requirements.txt"
       python: "3.13"
-      theme: "https://github.com/seanh/sidecar.git"
+      theme: "https://github.com/pelican-themes/sidecar.git"
