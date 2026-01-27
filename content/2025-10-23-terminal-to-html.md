@@ -1,4 +1,4 @@
-Title: Link: Building a tool to copy-paste share terminal sessions using Claude Code for web 
+Title: Link: Building a tool to copy-paste share terminal sessions using Claude Code for web via https://simonwillison.net/
 Date: 2025-10-23
 Category: Link Blog
 Status: published
@@ -28,4 +28,4 @@ GitHub Authentication Flow:
 > I [figured out](https://gist.github.com/simonw/975b8934066417fe771561a1b672ad4f) the minimal Cloudflare worker necessary to implement the server-side portion of GitHub’s authentication flow. That code [lives here](https://github.com/simonw/tools/blob/main/cloudflare-workers/github-auth.js) and means that any of the HTML+JavaScript tools in my collection can implement a GitHub authentication flow if they need to save Gists.
 
 
-Via: https://simonwillison.net/2025/Oct/23/claude-code-for-web-video/
+Via: [https://simonwillison.net/2025/Oct/23/claude-code-for-web-video/](https://simonwillison.net/2025/Oct/23/claude-code-for-web-video/)
