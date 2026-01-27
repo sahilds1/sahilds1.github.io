@@ -1,6 +1,6 @@
 Title: Learning Notes: Pointer Dynamics
 Date: 2025-06-05
-Status: published
+Status: draft
 
 <!-- Pointers at two different positions, we can compare the elements and make decisions based on comparisons
 Comparing every two elements doesn't take advantage of predictable dynamics exist within data structure  -->

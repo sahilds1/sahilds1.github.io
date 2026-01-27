@@ -1,4 +1,4 @@
-Title: Link Blog: [Video: Building a tool to copy-paste share terminal sessions using Claude Code for web](https://simonwillison.net/2025/Oct/23/claude-code-for-web-video/)
+Title: [Video: Building a tool to copy-paste share terminal sessions using Claude Code for web](https://simonwillison.net/2025/Oct/23/claude-code-for-web-video/)
 Date: 2025-10-23
 Status: published
 
