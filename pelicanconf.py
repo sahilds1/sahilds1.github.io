@@ -54,6 +54,7 @@ SIDECAR_NAVBAR = [
     "HOME",
     "MENUITEMS",
     "PAGES",
+    "CATEGORIES",
     "TAGS",
     "ARCHIVES",
 ]
