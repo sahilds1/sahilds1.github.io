@@ -7,7 +7,7 @@ DELETE_OUTPUT_DIRECTORY = True
 OUTPUT_SOURCES = True
 TYPOGRIFY = True
 TYPOGRIFY_DASHES = "oldschool"
-TIMEZONE = "Europe/London"
+TIMEZONE = "America/New_York"
 DEFAULT_LANG = "en"
 DEFAULT_PAGINATION = 10
 CATEGORIES_SAVE_AS = "categories/index.html"
@@ -42,13 +42,15 @@ PAGE_SAVE_AS = '{slug}/index.html'
 PAGE_URL = '{slug}/'
 PAGE_SOURCE_URL = "{page.url}index{OUTPUT_SOURCES_EXTENSION}"
 
-LINKS = (
+# Links (renamed from LINKS to MENUITEMS for Sidecar compatibility)
+MENUITEMS = (
     ("Atom Feed", "https://sahilds1.github.io/feeds/all.atom.xml"),
     ("GitHub", "https://github.com/sahilds1"),
     ("LinkedIn", "https://www.linkedin.com/in/sahildshah1/"),
 )
 
-SIDECAR_MENU = [
+# Sidecar navbar configuration (corrected from SIDECAR_MENU)
+SIDECAR_NAVBAR = [
     "HOME",
     "MENUITEMS",
     "PAGES",
@@ -56,8 +58,39 @@ SIDECAR_MENU = [
     "ARCHIVES",
 ]
 
-SIDECAR_TAGLINE = [
+# Sidecar article tagline configuration (corrected from SIDECAR_TAGLINE)
+SIDECAR_ARTICLE_TAGLINE_ITEMS = [
     "TIME",
     "AUTHORS",
     "TAGS",
 ]
+
+# Optional: Configure article footer items
+# SIDECAR_ARTICLE_FOOTER_ITEMS = ["AUTHORS"]
+
+# Optional: Configure page tagline and footer items
+# SIDECAR_PAGE_TAGLINE_ITEMS = []
+# SIDECAR_PAGE_FOOTER_ITEMS = ["TIME"]
+
+# Optional: Set date format for better appearance
+# DEFAULT_DATE_FORMAT = "%b %d, %Y"
+
+# Optional: Configure GitHub URL for navbar GitHub icon
+# GITHUB_URL = "https://github.com/sahilds1"
+
+# Optional: Configure site bio for homepage
+# AVATAR_URL = "https://gravatar.com/avatar/..."
+# SITESUBTITLE = "Your site subtitle"
+# SITEBIO = "Your bio text"
+
+# Optional: Configure syntax highlighting theme
+# SIDECAR_PYGMENTS_THEME = "monokai"
+# SIDECAR_PYGMENTS_BORDERLESS = True
+
+# Optional: Configure custom CSS
+# STYLESHEET = """
+#     :root {
+#       --ok-color-bg: #ff851b;
+#       --ok-color-fg: #85144b;
+#     }
+# """
