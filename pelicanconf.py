@@ -19,8 +19,8 @@ FEED_DOMAIN = SITEURL
 GITHUB_URL = "https://github.com/sahilds1"
 
 # Optional: Homepage bio section
-SITESUBTITLE = "Your tagline here"
-SITEBIO = """Your bio text here"""
+SITESUBTITLE = "Sahil Shah Blog"
+#SITEBIO = """Your bio text here"""
 AVATAR_URL = "{SITEURL}/{THEME_STATIC_DIR}/images/avatar.jpg"
 
 # Make the URLs of article permalink pages nicer.
@@ -95,7 +95,7 @@ SIDECAR_NAVBAR = [
 SIDECAR_ARTICLE_TAGLINE_ITEMS = [
     "TIME",
     "AUTHORS",
-    "CATEGORY"
+    "CATEGORY",
     "TAGS",
 ]
 
