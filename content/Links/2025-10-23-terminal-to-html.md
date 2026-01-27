@@ -1,10 +1,10 @@
-Title: Building a tool to copy-paste share terminal sessions using Claude Code for web
+Title: Building a tool to copy-paste share terminal sessions using Claude Code for web via https://simonwillison.net/2025/Oct/23/claude-code-for-web-video/
 Date: 2025-10-23
+Category: Link Blog
+Tags: linkblog
 Status: published
-Summary: https://simonwillison.net/2025/Oct/23/claude-code-for-web-video/
 
 To share Claude Code CLI sessions, Simon Willison built [an app](https://tools.simonwillison.net/terminal-to-html) for sharing terminal sessions using GitHub Gists. The app implements a GitHub authentication flow using Cloudflare as an alternative to requiring users to paste in a GitHub Personal Access Token (PAT). He combined the functionality of previous tools for converting rich formatted text to HTML and saving GitHub Gists and implemented the app using Claude Code for web.
-
 
 > Here’s the full prompt I used on claude.ai/code, pointed at my simonw/tools repo, to build the tool:
 >
