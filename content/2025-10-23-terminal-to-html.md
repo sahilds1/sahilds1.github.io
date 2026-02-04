@@ -1,4 +1,4 @@
-Title: Link: Building a tool to copy-paste share terminal sessions using Claude Code for web via Simon Willison’s newsletter
+Title: Link: Building a tool to copy-paste share terminal sessions using Claude Code for web via Simon Willison
 Date: 2025-10-23
 Category: Link Blog
 Status: published
