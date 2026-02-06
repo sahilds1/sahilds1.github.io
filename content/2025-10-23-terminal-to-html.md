@@ -3,7 +3,7 @@ Date: 2025-10-23
 Category: Link Blog
 Status: published
 
-To share Claude Code CLI sessions, Simon Willison built [an app](https://tools.simonwillison.net/terminal-to-html) for sharing terminal sessions using GitHub Gists. The app implements a GitHub authentication flow using Cloudflare as an alternative to requiring users to paste in a GitHub Personal Access Token (PAT). He combined the functionality of previous tools for converting rich formatted text to HTML and saving GitHub Gists and implemented the app using Claude Code for web.
+To share Claude Code CLI sessions, Simon Willison built [a tool](https://tools.simonwillison.net/terminal-to-html) for sharing terminal sessions using GitHub Gists. The tool implements a GitHub authentication flow using Cloudflare as an alternative to requiring users to paste in a GitHub Personal Access Token (PAT). He combined the functionality of previous tools for converting rich formatted text to HTML and saving GitHub Gists and implemented the app using Claude Code for web.
 
 Prompt: 
 
