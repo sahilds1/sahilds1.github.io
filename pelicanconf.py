@@ -20,7 +20,7 @@ GITHUB_URL = "https://github.com/sahilds1"
 
 # Optional: Homepage bio section
 SITESUBTITLE = "Sahil Shah's Blog"
-#SITEBIO = """Your bio text here"""
+SITEBIO = """Hi 👋, I'm Sahil — an engineer who used to do biostatistics research and study applied math, now curious about building AI/ML systems. I write about things I learn, projects I've built, and links worth sharing."""
 # Pelican only serves static files from within PATH ("content/") and does not
 # support .. traversal in STATIC_PATHS, so images live in content/images/
 STATIC_PATHS = ["images"]
