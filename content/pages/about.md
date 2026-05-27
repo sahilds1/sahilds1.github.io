@@ -4,8 +4,6 @@ Hey! 👋 I'm Sahil, an engineer living in the Philadelphia area. I previously c
 
 I'm currently looking for an AI/ML software engineering role at an established software company that fosters a culture of trust and community contribution.
 
-I'm blogging about programming at [sahilds1.github.io](sahilds1.github.io) and you can also find me on [GitHub](https://github.com/sahilds1).
-
 When I'm not coding, you can find me training for my next half marathon or attending a local film festival.
 
 This site was built using [Pelican](https://getpelican.com/) — a Python static site generator.
