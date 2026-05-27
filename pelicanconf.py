@@ -21,7 +21,11 @@ GITHUB_URL = "https://github.com/sahilds1"
 # Optional: Homepage bio section
 SITESUBTITLE = "Sahil Shah's Blog"
 #SITEBIO = """Your bio text here"""
-AVATAR_URL = "{SITEURL}/{THEME_STATIC_DIR}/images/avatar.jpg"
+# Pelican only scans PATH ("content/") by default; this tells it to also copy
+# static/images/ into the output directory at images/
+STATIC_PATHS = ["../static/images"]
+EXTRA_PATH_METADATA = {"../static/images": {"path": "images"}}
+AVATAR_URL = "{SITEURL}/images/avatar.jpeg"
 
 # Make the URLs of article permalink pages nicer.
 ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
@@ -78,6 +82,7 @@ PAGINATION_PATTERNS = (
 # Menu items for navbar
 MENUITEMS = (
     ("Atom Feed", "https://sahilds1.github.io/feeds/all.atom.xml"),
+    ("LinkedIn", "https://www.linkedin.com/in/sahilds1/")
 )
 
 # Sidecar navbar configuration
