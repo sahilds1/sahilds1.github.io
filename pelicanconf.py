@@ -21,10 +21,9 @@ GITHUB_URL = "https://github.com/sahilds1"
 # Optional: Homepage bio section
 SITESUBTITLE = "Sahil Shah's Blog"
 #SITEBIO = """Your bio text here"""
-# Pelican only scans PATH ("content/") by default; this tells it to also copy
-# static/images/ into the output directory at images/
-STATIC_PATHS = ["../static/images"]
-EXTRA_PATH_METADATA = {"../static/images": {"path": "images"}}
+# Pelican only serves static files from within PATH ("content/") and does not
+# support .. traversal in STATIC_PATHS, so images live in content/images/
+STATIC_PATHS = ["images"]
 AVATAR_URL = "{SITEURL}/images/avatar.jpeg"
 
 # Make the URLs of article permalink pages nicer.
