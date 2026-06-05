@@ -6,19 +6,21 @@ Status: published
 Sean Goedecke describes two ways of using an LLM in a program — agents and "pipelines" — and advocates for agents while discussing the tradeoffs between them in terms of predictability, intelligence, context-gathering, multi-model pipelines, small contexts, safety and legibility.
 
 > Here's how you might structure a trivial "summarize a bunch of information and email it to me" program as a pipeline:
-> ```
-> context = gather_context(various, data, sources)
-> llm_response = llm_summarize(context)
-> summary = parse(llm_response)
-> email_me(summary, my_email)
-> ```
+```
+context = gather_context(various, data, sources)
+llm_response = llm_summarize(context)
+summary = parse(llm_response)
+email_me(summary, my_email)
+```
 > And here's how you'd do it as an agent:
-> ```
-> read_data_tool = build_read_data_tool(various, data, sources)
-> email_tool = build_email_tool(my_email)
-> run_agent(tools: [read_data_tool, email_tool])
-> ```
+```
+read_data_tool = build_read_data_tool(various, data, sources)
+email_tool = build_email_tool(my_email)
+run_agent(tools: [read_data_tool, email_tool])
+```
+
 > Overall, I'd suggest following these guidelines:
+>
 > 1. Use pipelines when you have strict requirements around context size
 > 2. Use pipelines when you need to be able to accurately predict (or limit) GPU cost
 > 3. Use pipelines when you have to use local models
