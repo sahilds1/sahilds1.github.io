@@ -8,4 +8,4 @@ After defending my PhD, I built experience developing online/offline evaluations
 
 After moving to Philadelphia, I gained experience owning entire AI/agent systems and building across the UI, API, and database layers. To deepen my engineering skills and learn about emerging AI technologies, I decided to take a sabbatical between jobs. During it, I've been a member of Code for Philly, attended PyCon and Philly tech meetups, and kept up with developments in software built on LLMs and code written with them. At Code for Philly, I've focused on building a chatbot that searches through research papers to answer questions. I'm also writing about things I learn and want to remember, along with links worth sharing. I'm now looking for the right opportunity to enter this space at the industry level — companies that build and run AI systems to do work for their customers, with a culture of trust and community contribution.
 
-This site was built using [Pelican](https://getpelican.com/) — a Python static site generator.
+This site was built using [Pelican](https://getpelican.com/) and [Sidecar](https://github.com/pelican-themes/sidecar)
