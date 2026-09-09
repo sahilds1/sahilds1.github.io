@@ -1,6 +1,6 @@
 Title: TIL: Fundamentals of Rust
 Date: 2026-02-18
-Category: TIL
+Category: Today I Learned
 Status: published
 
 # Simple Curl in Rust
