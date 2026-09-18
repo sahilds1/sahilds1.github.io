@@ -1,11 +1,9 @@
 Title: About
 
-Hi 👋 I'm Sahil — an engineer focused on building AI/ML systems, based in the Philadelphia area.
+Hi 👋, I’m Sahil – an engineer focused on building AI systems, based in the Philadelphia area.
 
-I have a background in biostatistics research and applied math. During a PhD program at Northwestern University, I studied broadly across math and statistics before focusing my research on statistical methods for analyzing genomic data. Working with experimentalists, I developed a computational method to identify gene/disease associations by resampling high-dimensional genomic data. Later, I broadened my statistical modeling skills on projects involving causal inference, supervised machine learning, and LLMs.
+My career centers on building and evaluating software that uses statistical modeling to guide users with their work. 
 
-After defending my PhD, I built experience developing online/offline evaluations for ML systems. I worked at startups that built and ran ML systems to handle work for their customers' marketing and operations teams. To grow my software development skills, I sought out engineering teams where I could contribute to production systems. There, I collaborated with teammates to support customer acquisition by adding online/offline evaluations to our ML systems and establishing their performance. Building on that, I later took on broader AI/ML systems work.
-
-After moving to Philadelphia, I gained experience owning entire AI/agent systems and building across the UI, API, and database layers. To deepen my engineering skills and learn about emerging AI technologies, I decided to take a sabbatical between jobs. During it, I've been a member of Code for Philly, attended PyCon and Philly tech meetups, and kept up with developments in software built on LLMs and code written with them. At Code for Philly, I've focused on building a chatbot that searches through research papers to answer questions. I'm also writing about things I learn and want to remember, along with links worth sharing. I'm now looking for the right opportunity to enter this space at the industry level — companies that build and run AI systems to do work for their customers, with a culture of trust and community contribution.
+I’m currently looking for B2B technology companies (40+ people) that build AI systems to guide or assist customers with their professional work with open mid-level AI Engineer or Forward Deployed Engineer roles. I’m especially interested in companies with a culture of engineer ownership, careful decisions, and blameless learning.
 
 This site was built using [Pelican](https://getpelican.com/) and [Sidecar](https://github.com/pelican-themes/sidecar)
